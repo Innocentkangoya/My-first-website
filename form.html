@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Survey Form</title>
+</head>
+<body>
+      <!-- Survey form -->
+       <!-- Form starts here -->
+      <form>
+            <h2>Survey Form</h2>
+
+            <div>
+                  <label for="fullname">Fullname</label>
+                  <input type="text" required placeholder="Enter fullname" id="fullname">
+            </div>
+            <br>
+            <div>
+                  <label for="email">Email</label>
+                  <input type="email" required placeholder="Enter email" id="email">
+            </div>
+            <br>
+            <div>
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" placeholder="Enter phone number" id="phone">
+            </div>
+            <br>
+            <div>
+                  <label for="age">Age</label>
+                  <input type="number" placeholder="Enter age" id="age" min="18" required>
+            </div>
+            <br>
+            <div>
+                  <label for="gender">Gender</label>
+                  <input type="radio" id="gender" name="gender"><span>Male</span>
+                  <input type="radio" id="gender" name="gender"><span>Female</span>
+                  <input type="radio" id="gender" name="gender"><span>Other</span>
+            </div>
+            <br>
+            <div>
+                  <select>
+                        <option selected disabled>Select Your Field of Interest</option>
+                        <option >AI</option>
+                        <option >Web Development</option>
+                        <option >Cybersecurity</option>
+                        <option >Data Science</option>
+                        <option >Cloud Computing</option>
+                  </select>
+            </div>
+             <br>
+            <div>
+                  <label for="mode">Will You Attend In-Person or Virtually?</label> <br>
+                  <input type="radio" id="mode" name="mode"><span>In-Person</span>
+                  <input type="radio" id="mode" name="mode"><span>Virtually</span>
+            </div>
+            <br>
+            <div>
+                  <label for="rating">Rate Your Excitement Level</label> <br>
+                  <input type="range" id="rating" min="1" max="5">
+            </div>
+            <br>
+            <div>
+                  <label for="">Any Special Requests?</label> <br>
+                  <textarea cols="30" rows="5" placeholder="Enter your request here..."></textarea>
+            </div>
+
+            <br>
+            <div>
+                  <input type="checkbox"> <span>Agree to Terms & Conditions </span>
+            </div>
+            <br>
+            <div>
+                  <button type="button">Submit</button>
+            </div>
+      </form>
+       <!-- Form ends here -->
+
+</body>
+</html>
